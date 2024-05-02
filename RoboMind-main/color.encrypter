@@ -1,0 +1,49 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Llamada al método para sumar dos números y mostrar el resultado
+        MostrarResultadoSuma();
+    }
+
+    static int Sumar(int num1, int num2)
+    {
+        // Retorno de la suma de dos números
+        return num1 + num2;
+    }
+
+    static void MostrarResultadoSuma()
+    {
+        int numero1 = 10;
+        int numero2 = -20;
+
+        // Suma de los dos números utilizando el método Sumar
+        int resultado = Sumar(numero1, numero2);
+
+        // Imprimir el resultado utilizando un método sin retorno
+        ImprimirResultado(resultado);
+    }
+
+    static void ImprimirResultado(int resultado)
+    {
+        // Imprimir el resultado según sea menor a 0, igual a 0 o mayor que 0
+        if (resultado < 0)
+        {
+            Console.WriteLine("La suma es menor que 0: " + resultado);
+        }
+        if (resultado == 0)
+        {
+            Console.WriteLine("La suma es igual a 0: " + resultado);
+        }
+        if (resultado > 0)
+        {
+            Console.WriteLine("La suma es mayor que 0: " + resultado);
+        }
+    }
+}
+for
+true
+hola
+.setColor
